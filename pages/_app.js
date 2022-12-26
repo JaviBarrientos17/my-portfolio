@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
         rel="shortcut icon"
         href="https://avatars.githubusercontent.com/u/44582104?v=4"
       />
-      <title>Javi Barrientos Peralta</title>
+      <title>Javi Barrientos | Portfolio</title>
       <Navbar />
       <Component {...pageProps} />
     </>
