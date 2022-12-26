@@ -96,6 +96,7 @@ nav{
   
   .nav__link:hover:before{
    width: 100%;
-   background-color: yellow;
+   /* TODO CHANGE THE COLOR TO A BETTER ONE */
+   background-color: wheat;
   }
 }
