@@ -3,6 +3,20 @@ import Image from "next/image";
 import React, { useState } from "react";
 import Logo from "./Logo";
 import NavItem from "./NavItem";
+import {
+  Button,
+  Checkbox,
+  Container,
+  fs,
+  LoadingDots,
+  Spacer,
+  Spinner,
+  Text,
+  useTheme,
+  useToasts,
+  IconSizeContext,
+  Toggle,
+} from "nextjs-components";
 
 const MENU_LIST = [
   { text: "Home", href: "/" },
@@ -22,11 +36,8 @@ const Navbar = () => {
         <div
           onClick={() => setNavActive(!navActive)}
           className={`nav__menu-bar`}
-        >
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
+        ></div>
+        {/* TODO ADD THEME SWITCH */}
         <div className={`${navActive ? "active" : ""} nav__menu-list`}>
           {MENU_LIST.map((menu, idx) => (
             <div
