@@ -3,20 +3,6 @@ import Image from "next/image";
 import React, { useState } from "react";
 import Logo from "./Logo";
 import NavItem from "./NavItem";
-import {
-  Button,
-  Checkbox,
-  Container,
-  fs,
-  LoadingDots,
-  Spacer,
-  Spinner,
-  Text,
-  useTheme,
-  useToasts,
-  IconSizeContext,
-  Toggle,
-} from "nextjs-components";
 
 const MENU_LIST = [
   { text: "Home", href: "/" },
