@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@nextui-org/react": "^1.0.0-beta.11",
     "next": "latest",
     "next-themes": "^0.2.1",
     "react": "18.2.0",
