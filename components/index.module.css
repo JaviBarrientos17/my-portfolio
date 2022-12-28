@@ -92,5 +92,6 @@ nav {
 
   .nav__link:hover:before {
     width: 100%;
+    /* TODO ADD A COLOR FOR UNDERLINE */
   }
 }
