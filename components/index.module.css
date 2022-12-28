@@ -56,11 +56,9 @@ nav {
   position: relative;
   transition: all 0.2s;
 }
-
 .nav__link:hover {
   font-weight: bold;
 }
-
 .center {
   min-height: 600px;
   display: flex;
@@ -89,9 +87,7 @@ nav {
     background-color: black;
     transition: all 0.2s;
   }
-
   .nav__link:hover:before {
     width: 100%;
-    /* TODO ADD A COLOR FOR UNDERLINE */
   }
 }
