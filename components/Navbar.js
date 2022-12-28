@@ -17,13 +17,18 @@ const Navbar = () => {
     <header>
       <nav className={`nav`}>
         <Link href={"/"}>
-          <h1 className="logo">Javi Barrientos Peralta</h1>
+          <a>
+            <h1 className="logo">CodeWithMarish</h1>
+          </a>
         </Link>
         <div
           onClick={() => setNavActive(!navActive)}
           className={`nav__menu-bar`}
-        ></div>
-        {/* TODO ADD THEME SWITCH */}
+        >
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
         <div className={`${navActive ? "active" : ""} nav__menu-list`}>
           {MENU_LIST.map((menu, idx) => (
             <div
