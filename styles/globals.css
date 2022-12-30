@@ -102,3 +102,20 @@ nav{
    background-color: wheat;
   }
 }
+.logo {
+  display: inline-block;
+  color: white;
+  overflow: hidden;
+  border-right: .15rem solid orange;
+  white-space: nowrap;
+  animation: typing 1.5s steps(20, end) forwards,
+  blinking .75s infinite;
+}
+@keyframes typing {
+  from {width: 0;}
+  to {width: 100%;}
+}
+@keyframes blinking {
+  from {border-color: transparent;}
+  to {border-color: orange;}
+}
