@@ -1,24 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap");
 * {
   margin: 0;
   padding: 0;
   outline: none;
   box-sizing: border-box;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 body {
   background-color: #121212;
 }
-a{
+a {
   text-decoration: none;
   color: inherit;
 }
-header{
+header {
   position: sticky;
   z-index: 30;
   top: 0;
 }
-nav{
+nav {
   display: flex;
   padding: 16px;
   justify-content: space-between;
@@ -26,19 +26,19 @@ nav{
   background-color: #121212;
   color: white;
 }
-.nav__menu-bar{
+.nav__menu-bar {
   display: flex;
   flex-direction: column;
   row-gap: 6px;
   cursor: pointer;
 }
-.nav__menu-bar div{
+.nav__menu-bar div {
   width: 40px;
   height: 4px;
   background-color: white;
   border-radius: 2px;
 }
-.nav__menu-list{
+.nav__menu-list {
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -52,32 +52,30 @@ nav{
   background-color: #121212;
   color: white;
 }
-.nav__menu-list.active{
+.nav__menu-list.active {
   right: 0;
   border: 1px solid white;
   /* TODO ADD MORE nav_menu-list CUSTOMIZATION */
 }
-.nav__link{
-  font-size: 18px; 
+.nav__link {
+  font-size: 18px;
   position: relative;
   transition: all 0.2s;
 }
-
-.nav__link:hover{
- font-weight: bold;
+.nav__link:hover {
+  font-weight: bold;
 }
-
-.center{
+.center {
   min-height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 @media screen and (min-width: 768px) {
-  .nav__menu-bar{
+  .nav__menu-bar {
     display: none;
   }
-  .nav__menu-list{
+  .nav__menu-list {
     position: unset;
     flex-direction: row;
     min-height: fit-content;
@@ -85,8 +83,8 @@ nav{
     column-gap: 24px;
     align-items: center;
   }
-  .nav__link::before{
-    content: '';
+  .nav__link::before {
+    content: "";
     position: absolute;
     width: 0%;
     height: 6px;
@@ -95,27 +93,33 @@ nav{
     background-color: black;
     transition: all 0.2s;
   }
-  
-  .nav__link:hover:before{
-   width: 100%;
-   /* TODO CHANGE THE COLOR TO A BETTER ONE */
-   background-color: wheat;
+  .nav__link:hover:before {
+    width: 100%;
+    /* TODO CHANGE THE COLOR TO A BETTER ONE */
+    background-color: wheat;
   }
 }
 .logo {
   display: inline-block;
   color: white;
   overflow: hidden;
-  border-right: .15rem solid orange;
+  border-right: 0.15rem solid orange;
   white-space: nowrap;
-  animation: typing 1.5s steps(20, end) forwards,
-  blinking .75s infinite;
+  animation: typing 1.5s steps(20, end) forwards, blinking 0.75s infinite;
 }
 @keyframes typing {
-  from {width: 0;}
-  to {width: 100%;}
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 @keyframes blinking {
-  from {border-color: transparent;}
-  to {border-color: orange;}
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: orange;
+  }
 }
