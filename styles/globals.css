@@ -35,7 +35,7 @@ nav{
 .nav__menu-bar div{
   width: 40px;
   height: 4px;
-  background-color: black;
+  background-color: white;
   border-radius: 2px;
 }
 .nav__menu-list{
@@ -54,6 +54,8 @@ nav{
 }
 .nav__menu-list.active{
   right: 0;
+  border: 1px solid white;
+  /* TODO ADD MORE nav_menu-list CUSTOMIZATION */
 }
 .nav__link{
   font-size: 18px; 
