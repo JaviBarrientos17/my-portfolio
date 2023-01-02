@@ -7,7 +7,8 @@ export default function Home() {
       <div className="center">
         <h2>Home Page</h2>
       </div>
-       <script src="https://app.embed.im/snow.js" defer></script>
+      {/* TODO COMENT THIS WHEN THERE IS NOT CHRISTMAS */}
+      <script src="https://app.embed.im/snow.js" defer></script>
     </Fragment>
   );
 }
