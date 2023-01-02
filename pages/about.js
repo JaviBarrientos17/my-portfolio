@@ -1,10 +1,13 @@
-import React from "react";
+import React, { Fragment } from "react";
 
 const About = () => {
   return (
-    <div className="center">
-      <h2>About Page</h2>
-    </div>
+    <Fragment>
+      <title>Javi Barrientos Peralta | Portfolio</title>
+      <div className="center">
+        <h2>About Page</h2>
+      </div>
+    </Fragment>
   );
 };
 
