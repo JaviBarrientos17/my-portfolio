@@ -7,6 +7,7 @@ import NavItem from "./NavItem";
 const MENU_LIST = [
   { text: "Home", href: "/" },
   { text: "About Me", href: "/about" },
+  { text: "Projects", href: "/projects" },
   { text: "Contact", href: "/contact" },
 ];
 const Navbar = () => {
@@ -28,7 +29,7 @@ const Navbar = () => {
           <div></div>
         </div>
         <div className={`${navActive ? "active" : ""} nav__menu-list`}>
-          {MENU_LIST.slice(0, 3).map((menu, idx) => (
+          {MENU_LIST.slice(0, 4).map((menu, idx) => (
             <div
               onClick={() => {
                 setActiveIdx(idx);
