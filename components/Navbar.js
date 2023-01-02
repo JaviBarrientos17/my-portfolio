@@ -27,21 +27,6 @@ const Navbar = () => {
           <div></div>
           <div></div>
         </div>
-        {/* <div className={`${navActive ? "active" : ""} nav__menu-list`}>
-          {MENU_LIST.map((menu, idx) => (
-            <div
-              onClick={() => {
-                setActiveIdx(idx);
-                setNavActive(false);
-              }}
-              key={menu.text}
-            >
-              <NavItem active={activeIdx === idx} {...menu} />
-            </div>
-          ))}
-        </div> */}
-        {/* TODO REWORKING NAVBAR NAVIGATION */}
-        {/* TODO MAKE IT WORK WITH THE LINK TAG https://nextjs.org/learn/basics/navigate-between-pages/link-component */}
         <div className={`${navActive ? "active" : ""} nav__menu-list`}>
           {MENU_LIST.slice(0, 3).map((menu, idx) => (
             <div
@@ -51,7 +36,6 @@ const Navbar = () => {
               }}
               key={menu.text}
             >
-              {/* TODO AT THIS MOMENT THIS WORKS! */}
               <NavItem active={activeIdx === idx} {...menu}>
                 <Link href={"/"}></Link>
               </NavItem>
