@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 
-const About = () => {
+const Projects = () => {
   return (
     <Fragment>
       <title>Javi Barrientos Peralta | Portfolio</title>
@@ -12,4 +12,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Projects;
