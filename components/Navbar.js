@@ -40,7 +40,7 @@ const Navbar = () => {
               <NavItem active={activeIdx === idx} {...menu}>
                 <Link href={"/"}></Link>
               </NavItem>
-            </div>
+            </div> 
           ))}
         </div>
       </nav>
