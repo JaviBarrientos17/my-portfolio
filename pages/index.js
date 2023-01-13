@@ -19,7 +19,7 @@ export default function Home() {
         <AiFillLinkedin />
       </div> */}
       <main className="px-10 dark:bg-gray-900 md:px-20 lg:px-40">
-
+        
       </main>
       {/* TODO UNCOMMENT THIS WHEN THERE IS CHRISTMAS */}
       {/* <script src="https://app.embed.im/snow.js" defer></script> */}
