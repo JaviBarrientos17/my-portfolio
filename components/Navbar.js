@@ -1,8 +1,8 @@
 import Link from "next/link";
-import Image from "next/image";
 import React, { useState } from "react";
-import Logo from "./Logo";
 import NavItem from "./NavItem";
+import { ChakraProvider } from "@chakra-ui/react";
+import ThemeToggle from "../components/ThemeToggle";
 
 const MENU_LIST = [
   { text: "Home", href: "/" },
@@ -15,36 +15,40 @@ const Navbar = () => {
   const [activeIdx, setActiveIdx] = useState(-1);
 
   return (
-    <header>
-      <nav className={`nav`}>
-        <Link href={"/"}>
-          <h1 className="logo">Javi Barrientos Peralta</h1>
-        </Link>
-        <div
-          onClick={() => setNavActive(!navActive)}
-          className={`nav__menu-bar`}
-        >
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div className={`${navActive ? "active" : ""} nav__menu-list`}>
-          {MENU_LIST.slice(0, 4).map((menu, idx) => (
-            <div
-              onClick={() => {
-                setActiveIdx(idx);
-                setNavActive(false);
-              }}
-              key={menu.text}
-            >
-              <NavItem active={activeIdx === idx} {...menu}>
-                <Link href={"/"}></Link>
-              </NavItem>
-            </div>
-          ))}
-        </div>
-      </nav>
-    </header>
+    <ChakraProvider>
+      <header>
+        <nav className={`nav`}>
+          <Link href={"/"}>
+            <h1 className="logo">Javi Barrientos Peralta</h1>
+          </Link>
+          <div
+            onClick={() => setNavActive(!navActive)}
+            className={`nav__menu-bar`}
+          >
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <div className={`${navActive ? "active" : ""} nav__menu-list`}>
+            {MENU_LIST.slice(0, 4).map((menu, idx) => (
+              <div
+                onClick={() => {
+                  setActiveIdx(idx);
+                  setNavActive(false);
+                }}
+                key={menu.text}
+              >
+                <NavItem active={activeIdx === idx} {...menu}>
+                  <Link href={"/"}></Link>
+                </NavItem>
+              </div>
+            ))}
+          </div>
+        </nav>
+        {/* TODO INTEGRAR EL TOGGLE EN EL NAVBAR */}
+        {/* <ThemeToggle /> */}
+      </header>
+    </ChakraProvider>
   );
 };
 

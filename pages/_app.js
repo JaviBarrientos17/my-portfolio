@@ -1,13 +1,16 @@
+import { ChakraProvider } from "@chakra-ui/react";
 import { Fragment } from "react";
 import Navbar from "../components/Navbar";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Fragment>
-      <Navbar />
-      <Component {...pageProps} />
-    </Fragment>
+    <ChakraProvider>
+      <Fragment>
+        <Navbar />
+        <Component {...pageProps} />
+      </Fragment>
+    </ChakraProvider>
   );
 }
 

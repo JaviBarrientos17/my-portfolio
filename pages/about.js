@@ -1,30 +1,25 @@
 import React, { Fragment } from "react";
-import { Button, ButtonGroup, HStack } from '@chakra-ui/react'
+import { Button, Stack } from "@chakra-ui/react";
 
 const About = () => {
   return (
     <Fragment>
       <title>Javi Barrientos Peralta | Portfolio</title>
-      <div className="center">
-        <h2></h2>
-        <a
-          name="downloadCVBtn"
-          id="downloadCVBtn"
-          class="btn btn-primary"
-          href="#"
-          role="button"
-        >
-          Download CV
-        </a>
-        {/* <HStack>
-          <Button colorScheme="facebook" leftIcon={<FaFacebook />}>
-            Facebook
-          </Button>
-          <Button colorScheme="twitter" leftIcon={<FaTwitter />}>
-            Twitter
-          </Button>
-        </HStack> */}
-      </div>
+      <h2 className="center">About me</h2>
+      <Stack spacing={4} direction="row" align="center">
+        <Button colorScheme="teal" size="xs">
+          Button
+        </Button>
+        <Button colorScheme="teal" size="sm">
+          Button
+        </Button>
+        <Button colorScheme="teal" size="md">
+          Button
+        </Button>
+        <Button colorScheme="teal" size="lg">
+          Button
+        </Button>
+      </Stack>
     </Fragment>
   );
 };
