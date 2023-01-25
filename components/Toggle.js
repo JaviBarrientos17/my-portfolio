@@ -9,8 +9,9 @@ const Toggle = () => {
 
     <div>
       <Flex align="center" justify="center" height="100vh" direction="column">
-        <Button size="md" onClick={() => toggleColorMode()}>
+        <Button size="sm" onClick={() => toggleColorMode()}>
           Toggle Mode {colorMode}
+          // TODO https://react-icons.github.io/react-icons/search?q=moon
         </Button>
       </Flex>
     </div>
