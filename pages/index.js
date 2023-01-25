@@ -16,7 +16,6 @@ export default function Home() {
           />
           {/* <link rel="icon" href="/favicon.ico" /> */}
         </Head>
-
         {/* TODO UNCOMMENT THIS WHEN THERE IS CHRISTMAS */}
         {/* <script src="https://app.embed.im/snow.js" defer></script> */}
       </Fragment>

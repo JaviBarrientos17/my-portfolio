@@ -29,6 +29,11 @@ const Navbar = () => {
             <div></div>
             <div></div>
           </div>
+          <div>
+            TODO
+            {/* TODO INTEGRAR EL TOGGLE EN EL NAVBAR */}
+            {/* <ThemeToggle /> */}
+          </div>
           <div className={`${navActive ? "active" : ""} nav__menu-list`}>
             {MENU_LIST.slice(0, 4).map((menu, idx) => (
               <div
@@ -45,8 +50,6 @@ const Navbar = () => {
             ))}
           </div>
         </nav>
-        {/* TODO INTEGRAR EL TOGGLE EN EL NAVBAR */}
-        {/* <ThemeToggle /> */}
       </header>
     </ChakraProvider>
   );
