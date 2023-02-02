@@ -31,10 +31,13 @@ const Navbar = () => {
           </div>
           <div>
             TODO
-            // TODO INTEGRAR EL TOGGLE EN EL NAVBAR */
-            {/* <ThemeToggle /> */}
-            // TODO https://react-icons.github.io/react-icons/search?q=moon */
+            {/* // TODO INTEGRAR EL TOGGLE EN EL NAVBAR }
+            <ThemeToggle />
+            {/* // TODO https://react-icons.github.io/react-icons/search?q=moon */}
           </div>
+          <li>
+            <div className="btn-blue">Toggle Theme</div>
+          </li>
           <div className={`${navActive ? "active" : ""} nav__menu-list`}>
             {MENU_LIST.slice(0, 4).map((menu, idx) => (
               <div
