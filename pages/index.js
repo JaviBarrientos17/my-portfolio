@@ -6,7 +6,7 @@ import ThemeToggle from "../components/ThemeToggle";
 export default function Home() {
   return (
     <ChakraProvider>
-      {/* <ThemeToggle /> */}
+      <ThemeToggle />
       <Fragment>
         <Head>
           <title>Javi Barrientos Peralta | Portfolio</title>
