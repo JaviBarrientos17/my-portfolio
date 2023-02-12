@@ -274,3 +274,9 @@ img {
 section {
   text-align: center;
 }
+
+.cardTitle {
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+}
