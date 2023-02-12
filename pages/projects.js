@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import ThemeToggle from "../components/ThemeToggle";
+import { AiFillGithub } from "react-icons/ai";
 
 const Projects = () => {
   return (
@@ -15,20 +15,31 @@ const Projects = () => {
         </div>
       </div> */}
       <section className="gridSection">
-        <div class="container">
-          <main class="grid">
+        <div className="container">
+          <main className="grid">
             <article>
               <img
                 src="https://i.imgur.com/bPZegib.jpg"
                 alt="ReactDex homepage"
               />
-              <div class="text">
-                {/* <p className="cardTitle">ReactDex</p> */}
-                <img src="https://tinyurl.com/5ysvxbr5" alt="ReactDex logo" />
+              <div className="card">
+                <img src="https://tinyurl.com/5cjy2a4x" alt="ReactDex logo" />
                 <p>Pokedex project using the PokeApi and React</p>
-                <a href="https://pkreactdex.netlify.app/"><button className="primary-button">Link</button></a>
-                {/* // TODO ADD SPACE BETWEEN THE TWO BTNS */}
-                <a href="https://github.com/JaviBarrientos17/ReactDex"><button className="primary-button">Link</button></a>
+                <section className="btnSection">
+                  <div className="btnsContainer">
+                    <a href="https://pkreactdex.netlify.app/">
+                      <button className="primary-button linkBtns">Link</button>
+                    </a>
+
+                    {/* // TODO ALIGN BTNS AT THE SAME HEIGHT */}
+
+                    <a href="https://github.com/JaviBarrientos17/ReactDex">
+                      <button className="primary-button linkBtns">
+                        <AiFillGithub size={25} />
+                      </button>
+                    </a>
+                  </div>
+                </section>
               </div>
             </article>
           </main>

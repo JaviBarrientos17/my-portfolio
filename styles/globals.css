@@ -167,7 +167,7 @@ nav {
 .grid > article img {
   max-width: 100%;
 }
-.grid .text {
+.grid .card {
   padding: 20px;
 }
 
@@ -194,13 +194,11 @@ nav {
   position: relative;
   z-index: 1;
 }
-
 .primary-button:hover {
   border: 1px solid #ff4655;
   color: white;
   background-position: 40%;
 }
-
 .primary-button:before {
   content: "";
   position: absolute;
@@ -211,15 +209,12 @@ nav {
   left: -1px;
   transition: background-color 0.15s ease-in-out;
 }
-
 .primary-button:hover:before {
   background-color: white;
 }
-
 .primary-button:hover:after {
   background-color: white;
 }
-
 .primary-button:after {
   content: "";
   position: absolute;
@@ -230,13 +225,11 @@ nav {
   right: -1px;
   transition: background-color 0.15s ease-in-out;
 }
-
 .button-borders {
   position: relative;
   width: fit-content;
   height: fit-content;
 }
-
 .button-borders:before {
   content: "";
   position: absolute;
@@ -248,7 +241,6 @@ nav {
   border-bottom: 0px;
   /* opacity: 0.3; */
 }
-
 .button-borders:after {
   content: "";
   position: absolute;
@@ -261,22 +253,29 @@ nav {
   /* opacity: 0.3; */
   z-index: 0;
 }
-
 .shape {
   fill: #0e1822;
 }
-
 img {
   width: 100%;
   object-fit: cover;
 }
-
 section {
   text-align: center;
 }
-
 .cardTitle {
   font-size: 25px;
   font-weight: bold;
   font-style: italic;
+}
+.btnSection {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.gridDiv {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
 }
