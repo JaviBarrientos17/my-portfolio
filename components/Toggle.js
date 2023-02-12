@@ -6,14 +6,14 @@ const Toggle = () => {
 
   {/* // TODO https://www.pluralsight.com/guides/adding-dark-mode-to-a-react-app-with-chakra-ui */}
   return (
-    <div>
-      <Flex align="center" justify="center" height="100vh" direction="column">
+    <section className="toggleThemeSection">
+      <Flex align="center" justify="center" direction="column">
         <Button size="sm" onClick={() => toggleColorMode()}>
           Toggle Mode {colorMode}
           {/* // TODO https://react-icons.github.io/react-icons/search?q=moon */}
         </Button>
       </Flex>
-    </div>
+    </section>
   );
 };
 
