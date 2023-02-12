@@ -5,8 +5,6 @@ import ThemeToggle from "../components/ThemeToggle";
 
 export default function Home() {
   return (
-    <ChakraProvider>
-      <ThemeToggle />
       <Fragment>
         <Head>
           <title>Javi Barrientos Peralta | Portfolio</title>
@@ -19,6 +17,5 @@ export default function Home() {
         {/* TODO UNCOMMENT THIS WHEN THERE IS CHRISTMAS */}
         {/* <script src="https://app.embed.im/snow.js" defer></script> */}
       </Fragment>
-    </ChakraProvider>
   );
 }
