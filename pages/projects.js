@@ -25,21 +25,17 @@ const Projects = () => {
               <div className="card">
                 <img src="https://tinyurl.com/5cjy2a4x" alt="ReactDex logo" />
                 <p>Pokedex project using the PokeApi and React</p>
-                <section className="btnSection">
-                  <div className="btnsContainer">
-                    <a href="https://pkreactdex.netlify.app/">
-                      <button className="primary-button linkBtns">Link</button>
-                    </a>
-
-                    {/* // TODO ALIGN BTNS AT THE SAME HEIGHT */}
-
-                    <a href="https://github.com/JaviBarrientos17/ReactDex">
-                      <button className="primary-button linkBtns">
-                        <AiFillGithub size={25} />
-                      </button>
-                    </a>
-                  </div>
-                </section>
+                <div class="button-container">
+                  <a href="https://pkreactdex.netlify.app/">
+                    <button className="primary-button linkBtns">Link</button>
+                  </a>
+                  <a href="https://github.com/JaviBarrientos17/ReactDex">
+                    <button className="primary-button linkBtns">
+                      <AiFillGithub size={25} />
+                    </button>
+                  </a>
+                  {/* <button class="primary-button">Button 3</button> */}
+                </div>
               </div>
             </article>
           </main>
