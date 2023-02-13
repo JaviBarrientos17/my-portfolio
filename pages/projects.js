@@ -5,15 +5,6 @@ const Projects = () => {
   return (
     <Fragment>
       <title>Javi Barrientos Peralta | Portfolio</title>
-      {/* <div className="gridDiv">
-        <div className="card">
-          <img src="https://pkreactdex.netlify.app/static/media/ReactDex.07b1fe57db71ff3dc1cb.png" />
-          <section>
-            <h4>Pokedex project using the PokeApi and React</h4>
-            <button className="primary-button">Link</button>
-          </section>
-        </div>
-      </div> */}
       <section className="gridSection">
         <div className="container">
           <main className="grid">
@@ -34,7 +25,6 @@ const Projects = () => {
                       <AiFillGithub size={25} />
                     </button>
                   </a>
-                  {/* <button class="primary-button">Button 3</button> */}
                 </div>
               </div>
             </article>
