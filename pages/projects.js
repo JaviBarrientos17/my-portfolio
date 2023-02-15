@@ -16,7 +16,7 @@ const Projects = () => {
               <div className="card">
                 <img src="https://tinyurl.com/5cjy2a4x" alt="ReactDex logo" />
                 <p>Pokedex project using the PokeApi and React</p>
-                <div class="button-container">
+                <div className="button-container">
                   <a href="https://pkreactdex.netlify.app/">
                     <button className="primary-button linkBtns">Link</button>
                   </a>
@@ -36,7 +36,7 @@ const Projects = () => {
               <div className="card">
                 <img src="https://tinyurl.com/5cjy2a4x" alt="ReactDex logo" />
                 <p>Pokedex project using the PokeApi and React</p>
-                <div class="button-container">
+                <div className="button-container">
                   <a href="https://pkreactdex.netlify.app/">
                     <button className="primary-button linkBtns">Link</button>
                   </a>
@@ -56,7 +56,7 @@ const Projects = () => {
               <div className="card">
                 <img src="https://tinyurl.com/5cjy2a4x" alt="ReactDex logo" />
                 <p>Pokedex project using the PokeApi and React</p>
-                <div class="button-container">
+                <div className="button-container">
                   <a href="https://pkreactdex.netlify.app/">
                     <button className="primary-button linkBtns">Link</button>
                   </a>

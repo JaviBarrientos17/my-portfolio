@@ -5,10 +5,10 @@ import Script from "next/script";
 export default function Home() {
   return (
     <Fragment>
-      {/* TODO MAKE WORK THIS FILE LOCATION */}
-      <Script src="assets/js/TabNotification.js" defer />
       <Head>
         <title>Javi Barrientos Peralta | Portfolio</title>
+        {/* TODO FIND WHY THIS SCRIPT DOES NOT LOAD PROPERLY */}
+        {/* <Script type="text/javascript" src="../public/static/TabNotification.js" defer/> */}
         <meta
           name="description"
           content="Javi Barrientos Peralta | Portfolio"
