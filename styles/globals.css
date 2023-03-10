@@ -277,3 +277,44 @@ section {
   display: flex;
   justify-content: center;
 }
+
+/* ABOUT ME SECTION */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+  border: 1px solid red;
+}
+
+.imageWrapper {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 1rem;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.textWrapper {
+  text-align: center;
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.text {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: white;
+}
