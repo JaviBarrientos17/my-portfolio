@@ -13,14 +13,10 @@
     "@heroicons/react": "^2.0.14",
     "@nextui-org/react": "^1.0.0-beta.11",
     "framer-motion": "^8.5.2",
-    "i18next": "^22.4.11",
-    "i18next-browser-languagedetector": "^7.0.1",
     "next": "latest",
     "next-themes": "^0.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-i18next": "^12.2.0",
-    "react-icons": "^4.8.0",
     "swr": "^2.0.0"
   },
   "devDependencies": {
