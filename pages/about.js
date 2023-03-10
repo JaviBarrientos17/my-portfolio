@@ -15,7 +15,7 @@ const About = () => {
         <div className="textWrapper">
           <h2 className="heading">About Me</h2>
           <p className="text">
-            Hi, I'm Javi Barrientos! I'm a [profession] based in Barcelona. I have
+            Hi, I'm Javi Barrientos! I'm a Full Stack Developer based in Barcelona. I have
             [number] years of experience in [industry/specialization]. I'm
             passionate about [interests/hobbies] and love [activity/interest].
           </p>
