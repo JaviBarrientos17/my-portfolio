@@ -6,7 +6,6 @@ export default function Home() {
   return (
     <Fragment>
       <Head>
-        <title>Javi Barrientos Peralta | Portfolio</title>
         {/* TODO FIND WHY THIS SCRIPT DOES NOT LOAD PROPERLY */}
         {/* <Script type="text/javascript" src="../public/static/TabNotification.js" defer/> */}
         <meta

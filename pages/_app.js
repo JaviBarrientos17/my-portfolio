@@ -10,7 +10,12 @@ function MyApp({ Component, pageProps }) {
     <ChakraProvider>
       <Fragment>
         <Head>
-          <Script type="text/javascript" src="../public/static/TabNotification.js" defer/>
+          <title>Javi Barrientos Peralta | Portfolio</title>
+          <Script
+            type="text/javascript"
+            src="../public/static/TabNotification.js"
+            defer
+          />
         </Head>
         <Navbar />
         <Component {...pageProps} />

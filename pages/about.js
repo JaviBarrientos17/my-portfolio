@@ -3,7 +3,6 @@ import { React, Fragment } from "react";
 const About = () => {
   return (
     <Fragment>
-      <title>Javi Barrientos Peralta | Portfolio</title>
       <div className="container">
         <div className="imageWrapper">
           <img
