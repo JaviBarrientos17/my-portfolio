@@ -28,7 +28,7 @@ const Navbar = () => {
           <div></div>
         </div>
         {/* // TODO https://react-icons.github.io/react-icons/search?q=moon */}
-        <ThemeToggle />
+        {/* <ThemeToggle /> */}
         <div className={`${navActive ? "active" : ""} nav__menu-list`}>
           {MENU_LIST.slice(0, 4).map((menu, idx) => (
             <div
